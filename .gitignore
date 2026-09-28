@@ -1,0 +1,80 @@
+﻿# 忽略规则
+
+# 操作系统与编辑器
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 本地环境变量与敏感配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# 日志、临时文件与缓存
+*.log
+*.tmp
+*.temp
+.cache/
+.cache-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# JavaScript / TypeScript
+node_modules/
+.npm/
+.pnpm-store/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+# Java / Kotlin / Gradle
+.gradle/
+*.class
+
+# Rust
+target/
+
+# .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+
+# 通用构建与打包产物
+out/
+release/
+*.zip
+*.tar
+*.tar.gz
+
+# 本地数据库、虚拟机与模型权重（按需在具体项目内例外）
+*.db
+*.sqlite
+*.sqlite3
+*.model
+*.safetensors
+*.gguf
+*.onnx
